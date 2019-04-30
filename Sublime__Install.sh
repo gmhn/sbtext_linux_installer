@@ -1,13 +1,13 @@
+clear
 figlet GMHN
 echo "Code the World"
 
 echo "[+] Installing sublime text [+]"
-## GPG KEY ##
-
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-
 ## DEPENDENCIES ##
 sudo apt-get install apt-transport-https
+sudo apt-get install wget
+## GPG KEY ##
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 
 ## CHANNEL INSTALL ##
 
