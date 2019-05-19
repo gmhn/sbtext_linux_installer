@@ -1,11 +1,12 @@
+## DEPENDENCIES ##
+sudo apt-get install apt-transport-https
+sudo apt-get install wget
+sudo apt-get install figlet
 clear
 figlet GMHN
 echo "Code the World"
 
 echo "[+] Installing sublime text [+]"
-## DEPENDENCIES ##
-sudo apt-get install apt-transport-https
-sudo apt-get install wget
 ## GPG KEY ##
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 
